@@ -1,0 +1,11 @@
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-24 col-sm-16">
+                <h2><span class="color-type-primary"></span> <span class="color-type-secondary"></span></h2>
+                <div class="type-sh2">TwitterBootstrapから派生させた、フリーテルのCSSフレームワークです。<br></div>
+            	<!-- <div class="m-t-xs m-b-md"><a href="https://freetel.jp/" class="btn btn-primary">FREETEL</a></div> -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+gulp = require('gulp')
+# コピーする
+gulp.task 'copy', ->
+  gulp.src('./src/fonts/**')
+    .pipe gulp.dest('./www/fonts/')
+  gulp.src('./src/images/**')
+    .pipe gulp.dest('./www/images/')
+  gulp.src('node_modules/jquery/dist/jquery.min.js')
+    .pipe gulp.dest('www/js/vendor/')
+  gulp.src('node_modules/jquery/dist/jquery.min.map')
+    .pipe gulp.dest('www/js/vendor/')
+  gulp.src('node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js')
+    .pipe gulp.dest('www/js/vendor/')
+  gulp.src('./src/js/*.js')
+    .pipe gulp.dest('./www/js/')
+  gulp.src('./src/js/vendor/*.js')
+    .pipe gulp.dest('./www/js/vendor/')
+  gulp.src('./src/js/vendor/*.map')
+    .pipe gulp.dest('./www/js/vendor/')
+  return

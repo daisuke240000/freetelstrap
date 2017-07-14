@@ -1,0 +1,23 @@
+{
+  "name": "FREETELSTRAP",
+  "version": "0.0.158",
+  "description": "CSS Framework",
+  "main": "Gruntfile.cofee",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "freetel"
+  ],
+  "author": "freetel",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib": "^0.11.0",
+    "jshint-stylish": "^2.2.1"
+  }
+}

@@ -1,0 +1,81 @@
+﻿/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@charset "UTF-8";
+
+// Settings
+@import "freetel/resources";
+@import "freetel/colors";
+@import "freetel/variables";
+@import "override/variables";
+
+// New mixins and mixins that completely replace
+// bootstrap mixins
+@import "freetel/mixins/colors";
+@import "freetel/mixins/animations";
+@import "freetel/mixins/triangle";
+@import "freetel/mixins/spacer";
+@import "freetel/mixins/glyphs";
+@import "override/mixins/tab-focus";
+
+// Base
+@import "freetel/grid";
+
+//optional bootstrap configuration without grid as example.
+/* when a project includes winstrap, it might want to pick and choose what parts of bootstrap
+to include instead of the default set of bootstrap components winstrap selects automatically.
+This demonstrates how to do this for a project that happens to override the bootstrap grid in
+order to substitute it with another grid. instead of @import "winstrap/src/scss/winstrap", use
+@import "winstrap/src/scss/winstrap-optional" in your project's scss */
+@import "override/bootstrap-optional";
+@import "freetel/glyphs";
+@import "freetel/utilities";
+@import "freetel/type";
+
+// Mixins that override bootstrap mixins
+@import "override/mixins/buttons";
+
+// Overridden components
+@import "override/grid";
+@import "override/scaffolding";
+@import "override/alerts";
+@import "override/breadcrumb";
+@import "override/buttons";
+@import "override/dropdown";
+@import "override/forms";
+@import "override/jumbotron";
+@import "override/labels";
+@import "override/modal";
+@import "override/navbar";
+@import "override/navs";
+@import "override/pagination";
+@import "override/panels";
+@import "override/popover";
+@import "override/progress-bar";
+@import "override/tables";
+@import "override/tooltip";
+
+// New components
+@import "freetel/scaffolding";
+@import "freetel/alerts";
+@import "freetel/back-to-top";
+@import "freetel/buttons";
+@import "freetel/lists";
+@import "freetel/media";
+@import "freetel/pager";
+@import "freetel/pagination";
+@import "freetel/panels";
+@import "freetel/progress-bar";
+@import "freetel/progress-ring";
+@import "freetel/rating";
+@import "freetel/section";
+@import "freetel/side-navigation";
+
+// Layout
+@import "freetel/main";
+@import "override/page";
+
+// Pages
+@import "freetel/doc";
